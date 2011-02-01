@@ -301,6 +301,17 @@ class Buby
   end
   alias save_state saveState
 
+  # saveConfig - added by truemilk
+  def saveConfig()
+    _check_and_callback(:saveConfig)
+  end
+  alias save_config saveConfig
+
+  # loadConfig - added by truemilk
+  def loadConfig(map)
+    _check_and_callback(:loadConfig, java.util.Map)
+  end
+  alias load_config loadConfig
 
   # Parses a raw HTTP request message and returns an associative array 
   # containing parameters as they are structured in the 'Parameters' tab in the 

@@ -301,13 +301,15 @@ class Buby
   end
   alias save_state saveState
 
-  # saveConfig - added by truemilk
+  # Saves the current Burp configuration to a HashMap. See also loadConfig.
   def saveConfig()
     _check_and_callback(:saveConfig)
   end
   alias save_config saveConfig
 
-  # loadConfig - added by truemilk
+  # Restores Burp configuration from a HashMap.
+  #
+  # * map = map containing the configuration (saved with saveConfig and edited)
   def loadConfig(map)
     _check_and_callback(:loadConfig, java.util.Map)
   end

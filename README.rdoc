@@ -1,3 +1,9 @@
+= NO LONGER MAINTAINED HERE
+
+Timur Duehr has taken over maintenance of Buby. Please see github.com/tduehr/buby for a more up to date and supported version.
+
+= NO LONGER MAINTAINED HERE
+
 buby
   by Eric Monti
   http://emonti.github.com/buby

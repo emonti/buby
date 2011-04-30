@@ -1,6 +1,6 @@
 = NO LONGER MAINTAINED HERE
 
-Timur Duehr has taken over maintenance of Buby. Please see github.com/tduehr/buby for a more up to date and supported version.
+Timur Duehr has taken over maintenance of Buby. Please see http://github.com/tduehr/buby for a more up to date and supported version.
 
 = NO LONGER MAINTAINED HERE
 

@@ -301,6 +301,19 @@ class Buby
   end
   alias save_state saveState
 
+  # Saves the current Burp configuration to a HashMap. See also loadConfig.
+  def saveConfig()
+    _check_and_callback(:saveConfig)
+  end
+  alias save_config saveConfig
+
+  # Restores Burp configuration from a HashMap.
+  #
+  # * map = map containing the configuration (saved with saveConfig and edited)
+  def loadConfig(map)
+    _check_and_callback(:loadConfig, java.util.Map)
+  end
+  alias load_config loadConfig
 
   # Parses a raw HTTP request message and returns an associative array 
   # containing parameters as they are structured in the 'Parameters' tab in the 
